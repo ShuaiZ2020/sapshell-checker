@@ -1,0 +1,97 @@
+_add_hyperlink: <bound method _BaseChildElement._add_adder.<locals>._add_child of <CT_P '<w:p>' at 0x23d513076b0>>
+_add_pPr: <bound method _BaseChildElement._add_adder.<locals>._add_child of <CT_P '<w:p>' at 0x23d513076b0>>
+_add_r: <bound method _BaseChildElement._add_adder.<locals>._add_child of <CT_P '<w:p>' at 0x23d513076b0>>
+_init: <bound method _Element._init of <CT_P '<w:p>' at 0x23d513076b0>>
+_insert_hyperlink: <bound method _BaseChildElement._add_inserter.<locals>._insert_child of <CT_P '<w:p>' at 0x23d513076b0>>
+_insert_pPr: <bound method CT_P._insert_pPr of <CT_P '<w:p>' at 0x23d513076b0>>
+_insert_r: <bound method _BaseChildElement._add_inserter.<locals>._insert_child of <CT_P '<w:p>' at 0x23d513076b0>>
+_new_hyperlink: <bound method _BaseChildElement._creator.<locals>.new_child_element of <CT_P '<w:p>' at 0x23d513076b0>>
+_new_pPr: <bound method _BaseChildElement._creator.<locals>.new_child_element of <CT_P '<w:p>' at 0x23d513076b0>>
+_new_r: <bound method _BaseChildElement._creator.<locals>.new_child_element of <CT_P '<w:p>' at 0x23d513076b0>>
+_nsptag: w:p
+_remove_pPr: <bound method ZeroOrOne._add_remover.<locals>._remove_child of <CT_P '<w:p>' at 0x23d513076b0>>
+add_hyperlink: <bound method _BaseChildElement._add_public_adder.<locals>.add_child of <CT_P '<w:p>' at 0x23d513076b0>>
+add_p_before: <bound method CT_P.add_p_before of <CT_P '<w:p>' at 0x23d513076b0>>
+add_r: <bound method _BaseChildElement._add_public_adder.<locals>.add_child of <CT_P '<w:p>' at 0x23d513076b0>>
+addnext: <bound method _Element.addnext of <CT_P '<w:p>' at 0x23d513076b0>>
+addprevious: <bound method _Element.addprevious of <CT_P '<w:p>' at 0x23d513076b0>>
+alignment: None
+append: <bound method _Element.append of <CT_P '<w:p>' at 0x23d513076b0>>
+attrib: {'{http://schemas.microsoft.com/office/word/2010/wordml}paraId': '3C96DB8C', '{http://schemas.microsoft.com/office/word/2010/wordml}textId': '514578EA', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}rsidR': '00B74F1C', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}rsidRPr': '002D5213', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}rsidRDefault': '00B74F1C', '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}rsidP': '00B74F1C'}
+base: None
+clear: <bound method _Element.clear of <CT_P '<w:p>' at 0x23d513076b0>>
+clear_content: <bound method CT_P.clear_content of <CT_P '<w:p>' at 0x23d513076b0>>
+cssselect: <bound method _Element.cssselect of <CT_P '<w:p>' at 0x23d513076b0>>
+extend: <bound method _Element.extend of <CT_P '<w:p>' at 0x23d513076b0>>
+find: <bound method _Element.find of <CT_P '<w:p>' at 0x23d513076b0>>
+findall: <bound method _Element.findall of <CT_P '<w:p>' at 0x23d513076b0>>
+findtext: <bound method _Element.findtext of <CT_P '<w:p>' at 0x23d513076b0>>
+first_child_found_in: <bound method BaseOxmlElement.first_child_found_in of <CT_P '<w:p>' at 0x23d513076b0>>
+get: <bound method _Element.get of <CT_P '<w:p>' at 0x23d513076b0>>
+get_or_add_pPr: <bound method ZeroOrOne._add_get_or_adder.<locals>.get_or_add_child of <CT_P '<w:p>' at 0x23d513076b0>>
+getchildren: <bound method _Element.getchildren of <CT_P '<w:p>' at 0x23d513076b0>>
+getiterator: <bound method _Element.getiterator of <CT_P '<w:p>' at 0x23d513076b0>>
+getnext: <bound method _Element.getnext of <CT_P '<w:p>' at 0x23d513076b0>>
+getparent: <bound method _Element.getparent of <CT_P '<w:p>' at 0x23d513076b0>>
+getprevious: <bound method _Element.getprevious of <CT_P '<w:p>' at 0x23d513076b0>>
+getroottree: <bound method _Element.getroottree of <CT_P '<w:p>' at 0x23d513076b0>>
+hyperlink_lst: []
+index: <bound method _Element.index of <CT_P '<w:p>' at 0x23d513076b0>>
+inner_content_elements: [<CT_R '<w:r>' at 0x23d51307340>, <CT_R '<w:r>' at 0x23d513077a0>, <CT_R '<w:r>' at 0x23d51307750>]
+insert: <bound method _Element.insert of <CT_P '<w:p>' at 0x23d513076b0>>
+insert_element_before: <bound method BaseOxmlElement.insert_element_before of <CT_P '<w:p>' at 0x23d513076b0>>
+items: <bound method _Element.items of <CT_P '<w:p>' at 0x23d513076b0>>
+iter: <bound method _Element.iter of <CT_P '<w:p>' at 0x23d513076b0>>
+iterancestors: <bound method _Element.iterancestors of <CT_P '<w:p>' at 0x23d513076b0>>
+iterchildren: <bound method _Element.iterchildren of <CT_P '<w:p>' at 0x23d513076b0>>
+iterdescendants: <bound method _Element.iterdescendants of <CT_P '<w:p>' at 0x23d513076b0>>
+iterfind: <bound method _Element.iterfind of <CT_P '<w:p>' at 0x23d513076b0>>
+itersiblings: <bound method _Element.itersiblings of <CT_P '<w:p>' at 0x23d513076b0>>
+itertext: <bound method _Element.itertext of <CT_P '<w:p>' at 0x23d513076b0>>
+keys: <bound method _Element.keys of <CT_P '<w:p>' at 0x23d513076b0>>
+lastRenderedPageBreaks: []
+makeelement: <bound method _Element.makeelement of <CT_P '<w:p>' at 0x23d513076b0>>
+nsmap: {'wpc': 'http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas', 'cx': 'http://schemas.microsoft.com/office/drawing/2014/chartex', 'cx1': 'http://schemas.microsoft.com/office/drawing/2015/9/8/chartex', 'cx2': 'http://schemas.microsoft.com/office/drawing/2015/10/21/chartex', 'cx3': 'http://schemas.microsoft.com/office/drawing/2016/5/9/chartex', 'cx4': 'http://schemas.microsoft.com/office/drawing/2016/5/10/chartex', 'cx5': 'http://schemas.microsoft.com/office/drawing/2016/5/11/chartex', 'cx6': 'http://schemas.microsoft.com/office/drawing/2016/5/12/chartex', 'cx7': 'http://schemas.microsoft.com/office/drawing/2016/5/13/chartex', 'cx8': 'http://schemas.microsoft.com/office/drawing/2016/5/14/chartex', 'mc': 'http://schemas.openxmlformats.org/markup-compatibility/2006', 'aink': 'http://schemas.microsoft.com/office/drawing/2016/ink', 'am3d': 'http://schemas.microsoft.com/office/drawing/2017/model3d', 'o': 'urn:schemas-microsoft-com:office:office', 'oel': 'http://schemas.microsoft.com/office/2019/extlst', 'r': 'http://schemas.openxmlformats.org/officeDocument/2006/relationships', 'm': 'http://schemas.openxmlformats.org/officeDocument/2006/math', 'v': 'urn:schemas-microsoft-com:vml', 'wp14': 'http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing', 'wp': 'http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing', 'w10': 'urn:schemas-microsoft-com:office:word', 'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main', 'w14': 'http://schemas.microsoft.com/office/word/2010/wordml', 'w15': 'http://schemas.microsoft.com/office/word/2012/wordml', 'w16cex': 'http://schemas.microsoft.com/office/word/2018/wordml/cex', 'w16cid': 'http://schemas.microsoft.com/office/word/2016/wordml/cid', 'w16': 'http://schemas.microsoft.com/office/word/2018/wordml', 'w16du': 'http://schemas.microsoft.com/office/word/2023/wordml/word16du', 'w16sdtdh': 'http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash', 'w16sdtfl': 'http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock', 'w16se': 'http://schemas.microsoft.com/office/word/2015/wordml/symex', 'wpg': 'http://schemas.microsoft.com/office/word/2010/wordprocessingGroup', 'wpi': 'http://schemas.microsoft.com/office/word/2010/wordprocessingInk', 'wne': 'http://schemas.microsoft.com/office/word/2006/wordml', 'wps': 'http://schemas.microsoft.com/office/word/2010/wordprocessingShape'}
+pPr: <CT_PPr '<w:pPr>' at 0x23d51307700>
+prefix: w
+r_lst: [<CT_R '<w:r>' at 0x23d4f68d9a0>, <CT_R '<w:r>' at 0x23d51307700>, <CT_R '<w:r>' at 0x23d51307750>]
+remove: <bound method _Element.remove of <CT_P '<w:p>' at 0x23d513076b0>>
+remove_all: <bound method BaseOxmlElement.remove_all of <CT_P '<w:p>' at 0x23d513076b0>>
+replace: <bound method _Element.replace of <CT_P '<w:p>' at 0x23d513076b0>>
+set: <bound method _Element.set of <CT_P '<w:p>' at 0x23d513076b0>>
+set_sectPr: <bound method CT_P.set_sectPr of <CT_P '<w:p>' at 0x23d513076b0>>
+sourceline: 2
+style: SHELL-14-01-2
+tag: {http://schemas.openxmlformats.org/wordprocessingml/2006/main}p
+tail: None
+text: 人口统计学数据^^Demographic Data
+values: <bound method _Element.values of <CT_P '<w:p>' at 0x23d513076b0>>
+xml: <w:p xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" w14:paraId="3C96DB8C" w14:textId="514578EA" w:rsidR="00B74F1C" w:rsidRPr="002D5213" w:rsidRDefault="00B74F1C" w:rsidP="00B74F1C">
+  <w:pPr>
+    <w:pStyle w:val="SHELL-14-01-2"/>
+  </w:pPr>
+  <w:bookmarkStart w:id="26" w:name="_Toc202458177"/>
+  <w:r w:rsidRPr="002D5213">
+    <w:rPr>
+      <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>人口统计学数据</w:t>
+  </w:r>
+  <w:bookmarkStart w:id="27" w:name="_Toc172622634"/>
+  <w:r w:rsidR="00287CA2" w:rsidRPr="002D5213">
+    <w:rPr>
+      <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>^^</w:t>
+  </w:r>
+  <w:r w:rsidR="00287CA2" w:rsidRPr="002D5213">
+    <w:rPr>
+      <w:rFonts w:cs="Times New Roman"/>
+    </w:rPr>
+    <w:t>Demographic Data</w:t>
+  </w:r>
+  <w:bookmarkEnd w:id="26"/>
+  <w:bookmarkEnd w:id="27"/>
+</w:p>
+
+xpath: <bound method BaseOxmlElement.xpath of <CT_P '<w:p>' at 0x23d513076b0>>

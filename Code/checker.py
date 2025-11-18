@@ -6,17 +6,11 @@ from glob import glob
 from os import path, makedirs
 #https://stackoverflow.com/questions/42093013/processing-objects-in-order-in-docx
 
-def request_project_path():
-    project_path = r'~\OneDrive\Work Yeedo\Project\2025014 - checker'
-    project_path = path.expanduser(project_path)
-    input_path = input('Please input the project path: ')
-    project_path = input_path if input_path else project_path
-    return project_path
-    
+
+
 def get_docx_path(project_path):
     ## list file under prject_path and return first docx file with string of 'tfl'
-    project_path = path.expanduser(project_path)
-    pattern = path.join(project_path, 'SAPS&SHELL', '*.docx')
+    pattern = path.join(project_path, 'SapShell/check', '*TFL*.docx')
     files = glob(pattern, recursive=True)
     if files[0]:
         print(f'Found docx file: {files[0]}')
@@ -30,7 +24,7 @@ def get_docx_path(project_path):
 def check_paragraph_font_size(paragraph: Paragraph, font_size =10.5) -> bool:
     if not isinstance(paragraph, Paragraph):
         raise TypeError("Input must be a docx.text.paragraph.Paragraph object")
-
+    print(f"Paragraph font size is {paragraph.style.font.size}")
     # Check explicit paragraph-level font size
     if paragraph.style.font.size and paragraph.style.font.size != Pt(10.5):
         return False
@@ -177,7 +171,7 @@ def print_attributes(obj, include_private=False, include_dunder=False):
      
 def save_df_to_datadir_excel(project_path, df):
     # check if Data directory exists, if not, create it
-    data_path = path.join(project_path, 'Data', 'table_df.xlsx')
+    data_path = path.join(project_path, "SapShell/check", 'table_df.xlsx')
     if not path.exists(path.dirname(data_path)):
         makedirs(path.dirname(data_path))  
     df.to_excel(data_path, index=False)

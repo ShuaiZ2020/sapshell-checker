@@ -7,9 +7,11 @@ from docx.oxml.text.paragraph import CT_P
 import checker 
 import pandas as pd
 from tqdm import tqdm
+import sys
 
 def main():
-    project_path = checker.request_project_path()
+    project_path = sys.argv[1]
+    print(f'Project path: {project_path}')
     docx_path = checker.get_docx_path(project_path)
     document = Document(docx_path)
     df_table = pd.DataFrame({'text':[],
@@ -32,7 +34,7 @@ def main():
             df1 = checker.get_df_from_table(table)
         else:
             df1 = checker.get_rows_from_unknowobj(element) 
-            
+        df1['para_id'] = i
         df_table = pd.concat([df_table, df1], ignore_index=True)
 
     data_path = checker.save_df_to_datadir_excel(project_path, df_table)

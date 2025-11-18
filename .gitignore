@@ -8,6 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+<<<<<<< HEAD
 
 # table data
 /data
+=======
+>>>>>>> fc821d3 (Initial commit)

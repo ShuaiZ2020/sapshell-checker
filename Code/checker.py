@@ -1,9 +1,10 @@
 from docx import Document
-import pandas as pd
+import polars as pl
 from docx.shared import Pt
 from docx.text.paragraph import Paragraph
 from glob import glob
 from os import path, makedirs
+import xlsxwriter
 #https://stackoverflow.com/questions/42093013/processing-objects-in-order-in-docx
 
 
@@ -24,7 +25,6 @@ def get_docx_path(project_path):
 def check_paragraph_font_size(paragraph: Paragraph, font_size =10.5) -> bool:
     if not isinstance(paragraph, Paragraph):
         raise TypeError("Input must be a docx.text.paragraph.Paragraph object")
-    print(f"Paragraph font size is {paragraph.style.font.size}")
     # Check explicit paragraph-level font size
     if paragraph.style.font.size and paragraph.style.font.size != Pt(10.5):
         return False
@@ -99,7 +99,7 @@ def get_rows_from_para(paragraph: Paragraph):
     df_dict['content_type'].append('paragraph')
     df_dict['column_id'].append(None)
     df_dict['row_id'].append(None)
-    return(pd.DataFrame(df_dict))
+    return(pl.DataFrame(df_dict))
     
 def get_df_from_table(table):
     df_dict = {'text':[],
@@ -133,7 +133,7 @@ def get_df_from_table(table):
                 df_dict['content_type'].append('table cell')
                 df_dict['column_id'].append(cell_index)
                 df_dict['row_id'].append(row_index)
-    return pd.DataFrame(df_dict)
+    return pl.DataFrame(df_dict)
     
 
 def get_rows_from_unknowobj(unknowobj):
@@ -154,7 +154,7 @@ def get_rows_from_unknowobj(unknowobj):
     df_dict['content_type'].append(None)
     df_dict['column_id'].append(None)
     df_dict['row_id'].append(None)
-    return(pd.DataFrame(df_dict))
+    return(pl.DataFrame(df_dict))
 
 def print_attributes(obj, include_private=False, include_dunder=False):
     for attr in dir(obj):
@@ -170,9 +170,18 @@ def print_attributes(obj, include_private=False, include_dunder=False):
 
      
 def save_df_to_datadir_excel(project_path, df):
-    # check if Data directory exists, if not, create it
     data_path = path.join(project_path, "SapShell/check", 'table_df.xlsx')
     if not path.exists(path.dirname(data_path)):
-        makedirs(path.dirname(data_path))  
-    df.to_excel(data_path, index=False)
+        makedirs(path.dirname(data_path))
+
+    with xlsxwriter.Workbook(data_path) as wb:
+        ws = wb.add_worksheet()
+
+        # Write header
+        ws.write_row(0, 0, df.columns)
+
+        # Write rows
+        for i, row in enumerate(df.rows()):
+            ws.write_row(i+1, 0, row)
+
     return data_path
